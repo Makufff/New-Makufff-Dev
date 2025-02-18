@@ -7,7 +7,7 @@ import html from 'remark-html'
 import remarkGfm from 'remark-gfm'
 
 interface PageProps {
-  params: { id: string };
+  params: Promise<{ id: string }>;
 }
 
 async function MarkdownContent({ content }: { content: string }) {
