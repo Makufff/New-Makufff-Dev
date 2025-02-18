@@ -76,8 +76,11 @@ export default function Home() {
               </motion.div>
               <h2 className="text-xl font-bold mb-2">Tanapat Chamted</h2>
               <p className="mb-2">AI/ML Enthusiast & Developer</p>
-              <p>
-                <strong>Email:</strong> makufff.tanapat@gmail.com
+              <p className="mb-2">
+                <strong>Email:</strong>
+                <a href="mailto:makufff.tanapat@gmail.com" className="ml-2">
+                  makufff.tanapat@gmail.com
+                </a>
               </p>
               <p>
                 <strong>Phone:</strong> 098 018 0495
