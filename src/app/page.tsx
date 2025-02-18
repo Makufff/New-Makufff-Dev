@@ -96,14 +96,12 @@ export default function Home() {
             </CardHeader>
             <CardContent>
               <p className="mb-2">
-                I'm a student passionate about AI/ML, with hands-on experience in Deep Learning and Machine Learning. My
-                projects span Computer Vision, image processing, NLP, and various AI applications. I excel in developing
-                software using React, Flutter, Python, and Node.js for both web and mobile platforms.
+                eiei
               </p>
               <div className="mt-4">
                 <h3 className="font-bold mb-2 bg-slate-300 px-2 rounded-md">Education</h3>
                 <p>
-                  <strong>King Mongkut's Institute of Technology Ladkrabang</strong>
+                  <strong>King Mongkut&apos;s Institute of Technology Ladkrabang</strong>
                 </p>
                 <p>BS in Information Technology</p>
                 <p>Jul 2024 - Present</p>
@@ -234,16 +232,66 @@ export default function Home() {
            whileHover={{ scale: 1.05 }}
            whileTap={{ scale: 0.95 }}
            >
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" height="30" alt="rust logo"  />
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" height="30" alt="bash logo"  />
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="30" alt="cplusplus logo"  />
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="typescript logo"  />
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="30" alt="nextjs logo"  />
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/anaconda/anaconda-original.svg" height="30" alt="anaconda logo"  />
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="30" alt="jupyter logo"  />
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nixos/nixos-original.svg" height="30" alt="nixos logo"  />
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="30" alt="pytorch logo"  />
+              <Image 
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" 
+                height={30} 
+                width={30}
+                alt="rust logo" 
+              />
+              <Image 
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" 
+                height={30} 
+                width={30}
+                alt="bash logo" 
+              />
+              <Image 
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" 
+                height={30} 
+                width={30}
+                alt="python logo" 
+              />
+              <Image 
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" 
+                height={30} 
+                width={30}
+                alt="cplusplus logo" 
+              />
+              <Image 
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" 
+                height={30} 
+                width={30}
+                alt="typescript logo" 
+              />
+              <Image 
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" 
+                height={30} 
+                width={30}
+                alt="nextjs logo" 
+              />
+              <Image 
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/anaconda/anaconda-original.svg" 
+                height={30} 
+                width={30}
+                alt="anaconda logo" 
+              />
+              <Image 
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" 
+                height={30} 
+                width={30}
+                alt="jupyter logo" 
+              />
+              <Image 
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nixos/nixos-original.svg" 
+                height={30} 
+                width={30}
+                alt="nixos logo" 
+              />
+              <Image 
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" 
+                height={30} 
+                width={30}
+                alt="pytorch logo" 
+              />
           </motion.div>
           </CardContent>
         </motion.div>

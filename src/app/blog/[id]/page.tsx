@@ -26,7 +26,8 @@ async function MarkdownContent({ content }: { content: string }) {
 
 export default async function BlogPost({ params }: PageProps) {
   try {
-    const post = await getPostData(params.id);
+    const resolvedParams = await params;
+    const post = await getPostData(resolvedParams.id);
     if (!post) return notFound();
 
     return (

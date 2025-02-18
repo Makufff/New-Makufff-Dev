@@ -5,7 +5,6 @@ import matter from 'gray-matter'
 import { remark } from 'remark'
 import html from 'remark-html'
 import remarkGfm from 'remark-gfm'
-import { log } from 'console'
 
 const postsDirectory = path.join(process.cwd(), 'posts')
 
