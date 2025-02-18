@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Link from "next/link";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,7 +29,16 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+      <footer className="bg-[#CCCCCC] border-t-2 border-[#999999] p-4 ">
+        <div className="font-bold max-w-4xl mx-auto text-center font-mono text-sm">
+          <Link href="https://github.com/Makufff">
+            <p>© 2025 Tanapat Chamted. All rights reserved.</p>
+          </Link>
+        </div>
+      </footer>  
       </body>
+      
     </html>
+    
   );
 }

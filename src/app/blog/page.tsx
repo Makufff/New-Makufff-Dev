@@ -90,12 +90,6 @@ export default async function Blog() {
           </div>
         </div>
       </main>
-
-      <footer className="bg-[#CCCCCC] border-t-2 border-[#999999] p-4 mt-8">
-        <div className="max-w-4xl mx-auto text-center font-mono text-sm">
-          <p>© 2025 Tanapat Chamted. All rights reserved.</p>
-        </div>
-      </footer>
     </div>
   )
 }

@@ -110,23 +110,6 @@ export default function Home() {
         </motion.div>
 
         <motion.div
-          className="mb-6"
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
-        >
-          <Link href="https://fridayz.cloud">
-            <Image
-              src="/banner.gif"
-              alt="Welcome GIF"
-              width={400}
-              height={100}
-              className="mx-auto border-2 border-[#999999] step-bounce w-max"
-            />
-          </Link>
-        </motion.div>
-
-        <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
@@ -230,9 +213,9 @@ export default function Home() {
                           href={project.projectUrl}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="inline-block px-4 py-2 bg-[#4A90E2] text-white border-2 border-[#2171C7] rounded shadow hover:bg-[#357ABD] transition-colors text-sm"
+                          className="font-bold inline-block px-4 py-2 bg-[#ffffff] text-green-500 border-2 border-green-500 rounded shadow hover:bg-[#eeeeee] transition-colors text-sm"
                         >
-                          Visit Project →
+                          <span className="text-red-500">กด2ที</span>ดูโปรเจค →
                         </a>
                       )}
                     </div>
@@ -268,21 +251,17 @@ export default function Home() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
         >
-          <Image
-            src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExY21wMnJxaTZpM2RwaHpnMGlpZ2xsZzl5NGs0dzRiaWJkeGNoNXg3biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l1J9urAfGd3grKV6E/giphy.gif"
-            alt="Welcome GIF"
-            width={400}
-            height={100}
-            className="mx-auto border-2 border-[#999999] step-bounce"
-          />
+          <Link href="https://fridayz.cloud">
+            <Image
+              src="/banner.gif"
+              alt="Welcome GIF"
+              width={400}
+              height={100}
+              className="mx-auto border-2 border-[#999999] step-bounce w-max"
+            />
+          </Link>
         </motion.div>
       </main>
-
-      <footer className="bg-[#CCCCCC] border-t-2 border-[#999999] p-4 mt-8">
-        <div className="max-w-4xl mx-auto text-center">
-          <p>&copy; 2025 Tanapat Chamted. All rights reserved.</p>
-        </div>
-      </footer>
     </div>
   )
 }
